@@ -267,9 +267,9 @@ Once a service is created, it's accessible from [controllers](/developer-docs/la
 
 ```js
 // access an API service
-strapi.service('api::apiName.serviceName');
+strapi.service('api::api-name.service-name');
 // access a plugin service
-strapi.service('plugin::pluginName.serviceName');
+strapi.service('plugin::plugin-name.service-name');
 ```
 
 ::: tip
